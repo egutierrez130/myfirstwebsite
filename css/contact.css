@@ -1,0 +1,28 @@
+.contact-header {
+    height: 80px;
+    width: 100%;
+    color: black; /*#1c446f usa wrestling navy blue*/
+    display: inline-block;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 800px;
+}
+
+.map {
+    height: 450px;
+    width: 600px;
+    border: black solid 6px;
+    margin-left: 5px;
+    float: left;
+}
+
+.form {
+    width: 600px;
+    float: left;
+    border: black solid 6px;
+    margin-left: 14%;
+}

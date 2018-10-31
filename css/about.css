@@ -1,0 +1,35 @@
+.about-text {
+    height: 80px;
+    width: 100%;
+    color: black; /*#1c446f usa wrestling navy blue*/
+    display: inline-block;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 800px;
+    margin-top: 20px;
+}
+
+.about-col {
+    width: 30%;
+    height: 700px;
+    border: black solid 6px;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.pic, .audio, .video {
+    margin-top: 15px;
+}
+
+.about-col p {
+    padding: 35px 20px;
+    text-align: justify
+}

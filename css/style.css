@@ -1,0 +1,148 @@
+body {
+    margin: 0 auto;
+    font-family: 'Slabo 27px', serif;
+}
+
+.nav-bar {
+    background-color: #3399ff; /* light-blue */
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+.logo {
+    height: 103px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.nav-list {
+    height: 75px;
+    float: right;
+}
+.list-item {
+    height: 40px;
+    width: 70px;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 14px;
+    background-color: #ffffff; /*white*/
+    border-radius: 50%;
+    text-align: center;
+}
+
+.list-item:hover {
+    background-color: #0000ff; /*blue*/
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #ff0000; /*red*/
+    line-height: 40px;
+}
+
+.list-item a:hover {
+    color: deeppink;
+    text-decoration: underline;
+}
+
+.banner {
+    background-image: url('../img/wrestling-logo-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    /*overflow: hidden;*/
+    /*position: relative;*/
+    top: 100px;
+    /*margin-bottom: 90px;*/
+    
+}
+
+.banner-text {
+    height: 100px;
+    width: 400px;
+    color: white; /*#1c446f usa wrestling navy blue*/
+    display: inline-block;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    border: 3px solid #000;
+    margin-top: 150px;
+    box-shadow: 6px 6px red;
+    border-radius: 6px;
+}
+
+.banner-text h1 {
+    text-shadow: 2px 2px red;
+}
+
+.content {
+    height: 900px;
+    /*position: relative;*/
+    /*z-index: -1;*/
+}
+    
+.column {
+    height: 800px;
+    width: 48%;
+    border: 3px solid #000000; /*black*/
+    /*float: left;*/
+    margin: 15px;
+    /*margin-bottom: 100px;*/
+    position: absolute;
+    text-align: center;
+    }
+    
+    figure {
+        margin-top: 15px;
+    }
+    .col-img {
+        height: 200px;
+        width: 100%;
+        background-color: black;
+    }
+    
+    
+    .col-2 {
+        right: 0;
+        /*text-align: justify;*/
+    }
+    
+    .col-2 p {
+        text-align: justify;
+        padding: 30px;
+    }
+    
+    .col-img2 {
+        
+    }
+    
+    .footer {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        background-color: #3399ff; /* light-blue */
+        overflow: hidden;
+        /*bottom: 0px;*/
+        /*margin-top: 0px;*/
+    }
+    
+    .footer-col {
+        width: 32.3%;
+        display: inline-block;
+        text-align: center;
+        line-height: 70px;
+    }
+    
+    .fa-facebook-square, .fa-instagram, .fa-slack, .fa-snapchat-square {
+        color: black;
+        
+    }
+    
+    .copyright {
+        color: black;
+    }
+    
+    
